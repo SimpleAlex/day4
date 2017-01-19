@@ -1,0 +1,83 @@
+body {
+  background: #F39C12;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*BUTTON*/
+#myBtn {
+  background: #212129;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 300ms;
+}
+#myBtn:hover {
+  background: #fff;
+  color: #212129;
+  transition: 300ms;
+}
+/*MODAL*/
+.modal {
+  background: #212129;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  opacity: .95;
+}
+
+.modal-content {
+  background: #efefef;
+  margin: 15% auto;
+  padding: 20px;
+  border: #333 1px solid;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: #000;
+}
